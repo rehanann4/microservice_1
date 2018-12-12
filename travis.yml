@@ -1,0 +1,8 @@
+sudo: required
+services: vagrant
+language: python3
+
+script:
+-   ./app.py -m HELLO
+-   ./app.py -w WORLD
+-   ./app.py -a ALL
