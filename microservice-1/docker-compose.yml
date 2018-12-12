@@ -1,0 +1,14 @@
+version: '2'
+services:
+  hello:
+    build:  ./hello
+    ports:
+      -  "81:80"
+  world:
+    build: ./world
+    ports:
+      -  "82:80"
+  rproxy:
+    build: ./rproxy
+    ports:
+      -  "8080:80"
