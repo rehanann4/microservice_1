@@ -1,0 +1,14 @@
+sudo: required
+services: vagrant
+language: python
+
+python:
+	-	3.6
+
+before_install:
+	-	pip install requests
+
+script:
+-   ./app.py -m HELLO
+-   ./app.py -w WORLD
+-   ./app.py -a ALL
