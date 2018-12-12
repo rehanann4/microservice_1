@@ -5,14 +5,15 @@ This application is contructed for how to automate and virtulize platform and se
 There are large dependencies involve in this code and it is required and install prior to the execution.
 
 <h5>Pre-requisites.</h5>
--   Linux (centos, Ubuntu), Darwin, or Windows platform server
--   Vagrant 2.0.2 or above (working install with Oracle virtual server)
--   python 3.6 or above 
--   python (requests, argparse)
+
+    1.  Linux (centos, Ubuntu), Darwin, or Windows platform server
+    2.  Vagrant 2.0.2 or above (working install with Oracle virtual server)
+    3.  python 3.6 or above 
+    4.  python (requests, argparse)
 
 
 Details:
-Hypotheically purpose application is distributed into two parts, user can request to any perticular service or both.
+For demo application is distributed into two parts Hypotheically, user can request to any perticular service or both.
 
 ```sequence
 Arch:
@@ -42,5 +43,5 @@ Tests:
 
 ```
 Note:
-High availabilty and scalabity not included.
+High availabilty, monitoring and scalabity not included.
 ```
