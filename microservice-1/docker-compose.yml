@@ -3,11 +3,11 @@ services:
   hello:
     build:  ./hello
     ports:
-      -  "81:80"
+      -  "8081:8081"
   world:
     build: ./world
     ports:
-      -  "82:80"
+      -  "8082:8082"
   rproxy:
     build: ./rproxy
     ports:
