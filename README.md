@@ -28,11 +28,10 @@ USER ----------> CURL----Rproxy---|
 
 Steps:
 ```
-Clone the repo 
-git clone 'https://github.com/rehanann4/microservice_1.git'
-cd microservice_1
-vagrant init
-vagrant up
+1.  git clone 'https://github.com/rehanann4/microservice_1.git'
+2.  cd microservice_1
+3.  vagrant init
+4.  vagrant up
 ```
 Tests:
 ```
