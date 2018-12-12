@@ -1,6 +1,6 @@
 <h4>Introduction:</h4>
 
-following app is created for hypothetical demoization for microservices type but not a fully functional microservices suite.
+this configuration is created for hypothetical demoization for microservices type but not a fully functional microservices suite.
 This application is contructed for how to automate and virtulize platform and services.
 There are large dependencies involve in this code and it is required and install prior to the execution.
 
@@ -12,17 +12,17 @@ There are large dependencies involve in this code and it is required and install
     4.  python (requests, argparse)
 
 
-Details:
-For demo application is distributed into two parts Hypotheically, user can request to any perticular service or both.
+<h4>Details:</h4>
+For the demo purpose the application is distributed into two parts and it is a hypothetic represention of a Microservics and it is only meant for if the application running in distributed platform or a kubernetes POD's. in this senerio a user can request to any perticular service or both from the main server.
 
 ```sequence
 Arch:
 
-                                  |---------> service #1
-                                  |
-USER ----------> CURL----Rproxy---|
-                                  |
-                                  |---------> service #2
+                                       |---------> service #1
+                                       |
+USER ----------> CURL--(POD)--Rproxy---|
+                                       |
+                                       |---------> service #2
 ```
 
 
